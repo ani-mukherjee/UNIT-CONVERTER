@@ -16,20 +16,23 @@
 <div class="main-part">
     <div class="left-part">
         <h2>Height Converter</h2><br><br>
-        <input type="number" class="center" id="ft" placeholder="Enter feet"><br><br>
-        <input type="number" class="center" id="inch" placeholder="Enter inch"><br><br>
-        <input type="number" class="center" id="cm" placeholder="Enter cm">
+        <label for="feet" class="common">Feet  </label><br>
+        <input type="number" class="center" id="feet" onkeyup="feet()" placeholder="Enter feet"><br><br>
+        <label for="inch" class="common">Inch  </label><br>
+        <input type="number" class="center" id="inch" onkeyup="inch()" placeholder="Enter inch"><br><br>
+        <label for="cm" class="common">Cm  </label><br>
+        <input type="number" class="center" id="cm"  onkeyup="cm()" placeholder="Enter cm">
         </div>
     <div class="right-part">
         <h2>Weight Converter</h2><br><br>
-        <input type="number" class="center" id="kg" placeholder="Enter kg"><br><br>
-        <input type="number" class="center" id="pnd" placeholder="Enter pound"><br><br>
-        <input type="number" class="center" id="ounce" placeholder="Enter ounce">
+        <label for="kg" class="common">Kg  </label><br>
+        <input type="number" class="center" id="kg" onkeyup="kg()" placeholder="Enter kg"><br><br>
+        <label for="pnd" class="common">Pound  </label><br>
+        <input type="number" class="center" id="pnd" onkeyup="pound()" placeholder="Enter pound"><br><br>
+        <label for="ounce" class="common">Ounce  </label><br>
+        <input type="number" class="center" id="ounce" onkeyup="ounce()" placeholder="Enter ounce">
     </div>
 </div>
-    
-
-
     <script src="scipt.js"></script>
 </body>
 </html>
