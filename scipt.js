@@ -19,11 +19,11 @@ let k = document.getElementById("kg");
 let p = document.getElementById("pnd");
 let o = document.getElementById("ounce");
 k.onkeyup = function kg(){
-    p.value= k.value*2.205;
+    p.value= k.value*2.20462;
     o.value = k.value*35.27;
 }
 p.onkeyup = function pound(){
-    k.value= p.value/2.205;
+    k.value= p.value/2.20462;
     o.value = p.value* 16 ;
 }
 o.onkeyup = function ounce(){
