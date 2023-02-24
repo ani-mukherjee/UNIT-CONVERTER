@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+.heading{
+    background-color:rgb(248, 200, 182);
+    padding-top: 30px;
+    padding-bottom: 30px;
+   
+}
+.heading1{
+    text-align: center;
+    font-size: xx-large;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 35px;
+    border-radius: 50%;
+    background-color: red;
+    border-width: 8px;
+    border-style: dotted;
+    background-color: rgb(193, 129, 204);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    font-size: 30px;
+    color: rgb(96, 63, 79);
+    font-weight: 800;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-part{
+    display: flex;
+    padding: 30px;
+    background-color: rgb(243, 112, 208);
+}
+.left-part{
+    background-color: rgb(121, 242, 236);
+    width:50%;
+    padding: 170px;
+    border-width: 10px;
+    border-radius: 50%;
+    margin-right: 30px;
+    border-color: blue;
+    border-style: dotted;
+}
+.right-part{
+    background-color: rgb(251, 221, 0);
+    width:50%;
+    padding: 170px;
+    border-width: 10px;
+    border-radius: 50%;
+    border-color: rgb(255, 0, 0);
+    border-style: dotted;
+    
+
+
+
+}
+.center{
+  width: 200px;
+  height: 35px;
+  font-weight:900;
+  font-size: large;
+  border-radius: 20px;
+  background-color: rgb(158, 252, 137);
+}
