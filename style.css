@@ -6,7 +6,7 @@
 
 }
 .heading{
-    background-color:rgb(248, 200, 182);
+    background-color:rgb(197, 254, 217);
     padding-top: 30px;
     padding-bottom: 30px;
    
@@ -21,7 +21,8 @@
     background-color: red;
     border-width: 8px;
     border-style: dotted;
-    background-color: rgb(193, 129, 204);
+    border-color: black;
+    background-color: rgb(255, 140, 118);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h2{
@@ -34,25 +35,26 @@ h2{
 .main-part{
     display: flex;
     padding: 30px;
-    background-color: rgb(243, 112, 208);
+    background-color: rgb(188, 177, 250);
 }
 .left-part{
-    background-color: rgb(121, 242, 236);
+    background-color: rgb(248, 173, 208);
     width:50%;
     padding: 170px;
     border-width: 10px;
     border-radius: 50%;
     margin-right: 30px;
-    border-color: blue;
+    border-color:rgb(44, 0, 202);
     border-style: dotted;
 }
 .right-part{
-    background-color: rgb(251, 221, 0);
+    background-color: rgb(255, 243, 151);
     width:50%;
     padding: 170px;
     border-width: 10px;
     border-radius: 50%;
-    border-color: rgb(255, 0, 0);
+    border-color:rgb(44, 0, 202);
+    
     border-style: dotted;
     
 
@@ -65,7 +67,7 @@ h2{
   font-weight:900;
   font-size: large;
   border-radius: 20px;
-  background-color: rgb(158, 252, 137);
+  background-color: rgb(208, 131, 250);
   margin-top: 2px;
 }
 .common{
